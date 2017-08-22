@@ -8,7 +8,7 @@ export default class Header extends Component {
 
   componentDidMount() {
     new Typed(".typewrite", {
-      strings: ["Web Developer", "Mobile Apps", "Dreamer"],
+      strings: ["Web Developer", "Traveler", "Dreamer"],
       typeSpeed: 180,
       backDelay: 1000,
       backSpeed: 100
