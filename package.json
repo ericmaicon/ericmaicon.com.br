@@ -1,0 +1,60 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "ericmaicon.com.br site",
+  "main": "index.js",
+  "repository": "ericmaicon/ericmaicon.com.br.git",
+  "contributors": [
+    {
+      "name": "Eric Maicon",
+      "email": "eric@ericmaicon.com.br"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node -- server.js",
+    "prod": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.prod.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap-sass": "^3.3.7",
+    "classnames": "^2.2.5",
+    "font-awesome": "^4.7.0",
+    "history": "^4.6.3",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-scroll": "^1.5.4",
+    "recompose": "^0.23.5",
+    "redux": "^3.7.1",
+    "redux-form": "^6.8.0",
+    "redux-saga": "^0.15.4",
+    "typed.js": "^2.0.5",
+    "validate.js": "^0.11.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "compression-webpack-plugin": "^1.0.0",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "extended-define-webpack-plugin": "^0.1.3",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
