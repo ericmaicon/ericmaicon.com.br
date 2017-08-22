@@ -8,7 +8,7 @@ import TextArea from "forms/TextArea"
 const ContactForm = ({
   handleContact,
   contactDone
-}) => { console.log(contactDone); return (
+}) => (
   <section id="contact" className="contact-me-area section-padding">
     <div className="container">
       <div className="row">
@@ -72,7 +72,7 @@ const ContactForm = ({
       </div>
     </div>
   </section>
-)}
+)
 
 ContactForm.propTypes = {
   handleContact: PropTypes.func.isRequired,
