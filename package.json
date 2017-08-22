@@ -16,7 +16,6 @@
     "prod": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.prod.js"
   },
   "dependencies": {
-    "axios": "^0.16.2",
     "bootstrap-sass": "^3.3.7",
     "classnames": "^2.2.5",
     "font-awesome": "^4.7.0",
